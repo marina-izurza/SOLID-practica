@@ -84,6 +84,7 @@ public  class File extends FileSystemItemBase implements FileSystemItem {
         isOpen = false;
     }
 
+
     public FileSystemItem convertMp3ToWav() {
         if (!"mp3".equalsIgnoreCase(getExtension())) {
             throw new InvalidFileFormatException("El fichero debe ser mp3");

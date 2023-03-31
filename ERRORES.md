@@ -5,8 +5,7 @@ de maneras diferentes.
 -Directory es una clase que representa un directorio en el sistema de archivos. Gracias 
 a su lista de Items, puede añadir, eliminar o enumerar los elementos de la lista.
 -File es una clase que hace referencia a un archivo en el distema de archivos.
-Puede leer y escribir. También puede convertir formatos de audio y referencia su posición
-actual.
+Puede leer y escribir. También puede convertir formatos de audio.
 
 Dado el programa, se han detectado que no se cumplen 3 principios SOLID. 
 A continuación se listan dónde no se cumplen y sus posibles soluciones:
@@ -38,6 +37,6 @@ A continuación se listan dónde no se cumplen y sus posibles soluciones:
 
 3.Principio de Abierto/Cerrado:
     -En la clase File al tener los métodos de conversión de audio, modifican el comportamiento de la
-    clase, por lo que incuple la parte del principio que dice que debería ser cerrada a modificaciones.
+    clase, por lo que incumple la parte del principio que dice que debería ser cerrada a modificaciones.
     ->Este problema  también queda resuelto al separar en distintas clases esos métodos como hicimos
     en el priniipio de responsabilidad única.
